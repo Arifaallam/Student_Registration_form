@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: system-ui;
+}
+
+body {
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    background-color:beige;
+    color: brown;
+    padding: 1rem;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: brown;
+    font-family: cursive;
+}
+
+.form-section {
+    background: beige;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 0 auto 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#studentForm input, #studentForm button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#studentForm button {
+    background-color: saddlebrown;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#studentForm button:hover {
+    background-color: burlywood;
+}
+
+.display-section {
+    background: beige;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow-x: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.table-wrapper {
+    overflow-x: auto;
+}
+
+#studentTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#studentTable th, #studentTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+#studentTable th {
+    background-color: brown;
+    color: white;
+}
+
+button.edit, button.delete {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.edit {
+    background-color: #ffc107;
+    color: black;
+}
+
+button.delete {
+    background-color: #dc3545;
+    color: white;
+}
+
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+}
